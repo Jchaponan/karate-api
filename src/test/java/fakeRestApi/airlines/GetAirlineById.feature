@@ -1,7 +1,7 @@
-Feature: Get an airline
+Feature: Get aa booking By Id
 
   Background:
-    * url 'https://api.instantwebtools.net/v1'
+    * url 'https://restful-booker.herokuapp.com'
 
   Scenario: Get an airline by id
     Given path 'airlines', "73dd5420-3bf9-48f3-a0b6-17cf7aa61b19"
